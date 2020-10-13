@@ -134,7 +134,7 @@ struct debug_core {
         static const long timeout_connect = 5000;
 
         /// Length of time to wait for socket shutdown
-        static const long timeout_socket_shutdown = 5000;
+        static const long timeout_socket_shutdown = 2000;
     };
 
     /// Transport Endpoint Component
